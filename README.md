@@ -4,17 +4,19 @@
 
 基于源项目[https://github.com/hunshcn/gh-proxy](gh-proxy)进行美化修改
 
-## 修改点
+## 修改
 
-使用html+css+js美化
-添加今日诗词api
-前端重构
+- 重写了前端样式
+- 添加今日诗词api
+- 前端美化
+### 注：
+- 有需要修改背景图可以找到 `url('https://cdn.jsdelivr.net/gh/ITJoker233/BingPicApi/pic/20250327.png')` 将`https://.../20250327.png`替换为自己的背景图片或随机图片api
 
 ## 效果图
 
 ![1111.png](https://cdn.jsdelivr.net/gh/lsersc/gh-proxy@master/1111.png)
 
-当然也欢迎[捐赠](#捐赠)以支持作者
+当然也欢迎[捐赠](#捐赠)以支持原作者
 
 ## python版本和cf worker版本差异
 
@@ -86,5 +88,4 @@ python版本默认走服务器（2021.3.27更新）
 
 ## 捐赠
 
-![wx.png](https://img.maocdn.cn/img/2021/04/24/image.md.png)
 ![ali.png](https://www.helloimg.com/images/2021/04/24/BK9vmb.md.png)
