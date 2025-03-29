@@ -30,10 +30,6 @@
 
 ***大量使用请自行部署，以上域名仅为演示使用。***
 
-访问私有仓库可以通过
-
-`git clone https://user:TOKEN@ghproxy.com/https://github.com/xxxx/xxxx` [#71](https://github.com/hunshcn/gh-proxy/issues/71)
-
 以下都是合法输入（仅示例，文件不存在）：
 
 - 分支源码：https://github.com/hunshcn/project/archive/master.zip
@@ -60,32 +56,6 @@
 
 `PREFIX`是前缀，默认（根路径情况为"/"），如果自定义路由为example.com/gh/*，请将PREFIX改为 '/gh/'，注意，少一个杠都会错！
 
-## Python版本部署
-
-### Docker部署
-
-```
-docker run -d --name="gh-proxy-py" \
-  -p 0.0.0.0:80:80 \
-  --restart=always \
-  hunsh/gh-proxy-py:latest
-```
-
-第一个80是你要暴露出去的端口
-
-### 直接部署
-
-安装依赖（请使用python3）
-
-```pip install flask requests```
-
-按需求修改`app/main.py`的前几项配置
-
-*注意:* 可能需要在`return Response`前加两行
-```python3
-if 'Transfer-Encoding' in headers:
-    headers.pop('Transfer-Encoding')
-```
 
 ### 注意
 
