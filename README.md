@@ -2,15 +2,17 @@
 
 ## 简介
 
-github release、archive以及项目文件的加速项目，支持clone，有Cloudflare Workers无服务器版本以及Python版本
+基于源项目[https://github.com/hunshcn/gh-proxy](gh-proxy)进行美化修改
 
-## 演示
+## 修改点
 
-[https://gh.api.99988866.xyz/](https://gh.api.99988866.xyz/)
+使用html+css+js美化
+添加今日诗词api
+前端重构
 
-演示站为公共服务，如有大规模使用需求请自行部署，演示站有点不堪重负
+## 效果图
 
-![imagea272c95887343279.png](https://img.maocdn.cn/img/2021/04/24/imagea272c95887343279.png)
+![1111.png](https://cdn.jsdelivr.net/gh/lsersc/gh-proxy@master/1111.png)
 
 当然也欢迎[捐赠](#捐赠)以支持作者
 
